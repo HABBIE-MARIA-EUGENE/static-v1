@@ -91,12 +91,16 @@
 .serv-intro{
   max-width: 700px;
   margin-bottom: 4px;
+  margin: 0 auto 40px;
+  text-align: center;
+ 
 }
 
 .serv-intro h2 {
   font-size: 36px;
   margin: 15px 0;
   color: #2b2424;
+
 }
 .serv-intro p {
   font-size: 17px;
