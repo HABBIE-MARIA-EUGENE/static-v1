@@ -74,29 +74,48 @@
 
       <div class="cont-form">
         <h2>
-          Send Us a Message!
+          Book an Appointment
         </h2>
 
-        <form>
+        <form id="booking-form">
           
           <label for="name">Name</label>
-          <input type="text" id="name">
+          <input type="text" id="name" required>
 
 
-          <label for="email">Email</label>
-          <input type="email" id="email">
+          <label for="booking-phone">Phone</label>
+          <input type="tel" id="booking-phone" required>
 
 
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone">
+          <!-- <label for="phone">Phone</label>
+          <input type="tel" id="phone"> -->
 
 
-          <label for="message">Message</label>
-          <textarea id="message"></textarea>
+          <!-- <label for="message">Message</label>
+          <textarea id="message"></textarea> -->
+
+          <label for="booking-service">Service</label>
+          <select id="booking-service" required>
+            <option value="">Select a Service</option>
+            <option value="HairCut">HairCut</option>
+            <option value="Facial">Facial</option>
+            <option value="Hair Styling">Hair Styling</option>
+            <option value="Nail Art">Nail Art</option>
+            <option value="Bridal Makeup">Bridal Makeup</option>
+          </select>
+          <p></p>
+          <label for="booking-date">Date</label>
+          <input type="date" id="booking-date" required>
+
+          <label for="booking-time">Time</label>
+          <input type="time" id="booking-time" required>
+
           
-          <button type="submit">Send Message</button>
+          <button type="submit">Book Appointment</button>
 
         </form>
+        <p id="booking-message"></p>
+
       </div>
 
     </section>

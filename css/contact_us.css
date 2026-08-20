@@ -70,8 +70,7 @@
   font-weight: 600;
 }
 
-.cont-form input,
-.cont-form textarea {
+.cont-form input {
     padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #d8c5c5;
@@ -80,10 +79,16 @@
     font-family: inherit;
     width: 100%;
 }
-.cont-form textarea {
-    min-height: 140px;
-    resize: vertical;
+.cont-form select {
+    min-height: 14px;
+    /* resize: vertical; */
+    margin-bottom: 20px;
 }
+
+/* .cont-form option {
+  margin-left: 10px;
+  justify-content: center;
+} */
 
 .cont-form button {
     width: fit-content;
