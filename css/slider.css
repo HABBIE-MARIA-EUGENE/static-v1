@@ -97,24 +97,3 @@
 }
 
 
-/* Mobile */
-
-@media (max-width: 700px) {
-
-  .slider-container {
-    height: 300px;
-  }
-
-}
-
-@media (max-width: 450px) {
-
-  .home-slider {
-    padding: 40px 5%;
-  }
-
-  .slider-container {
-    height: 230px;
-  }
-
-}

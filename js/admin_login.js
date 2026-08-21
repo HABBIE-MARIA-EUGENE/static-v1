@@ -47,14 +47,14 @@ loginForm.addEventListener("submit", async (event) => {
     }
 
 
-    // Save JWT
+    // jwt saving to loc sess.
     localStorage.setItem(
       "access_token",
       data.access_token
     );
 
 
-    // Go to dashboard
+    // redr to dbrd
     window.location.href = "dashboard.html";
 
 
