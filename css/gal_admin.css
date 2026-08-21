@@ -140,3 +140,32 @@
   }
 
 }
+
+
+
+
+.gallery-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.gallery-actions button {
+  padding: 8px 12px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+}
+
+.toggle-gallery-btn {
+  background-color: #eee;
+}
+
+.delete-gallery-btn {
+  background-color: #fde0e0;
+}
